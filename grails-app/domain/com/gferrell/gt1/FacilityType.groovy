@@ -6,7 +6,7 @@ class FacilityType {
     String description;
 
     static constraints = {
-        code blank:false, size: 4..16, unique:true
+        code blank:false, size: 3..16, unique:true
         description blank:false, size: 1..128
     }
 }
