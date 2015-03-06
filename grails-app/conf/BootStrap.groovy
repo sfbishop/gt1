@@ -24,6 +24,11 @@ class BootStrap {
                 ft4.code = "FT4"
                 ft4.description = "Type 4."
                 ft4.save(failOnError: true, flush: true)
+
+                def ft5 = new FacilityType()
+                ft5.code = "FT5"
+                ft5.description = "Type 5."
+                ft5.save(failOnError: true, flush: true)
             }
 
             test {
